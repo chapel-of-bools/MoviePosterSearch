@@ -1,0 +1,37 @@
+html{
+  background-color: #21252B;
+  background-image: url('background.png');
+}
+input, button{
+  display: block;
+  margin: auto;
+}
+input{
+  border: 2px solid black;
+  margin-bottom: 3px;
+  width: 200px;
+  height: 25px;
+  box-shadow: 0px 0px 10px white;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 0px 0px 10px white;
+  font-family: 'Atma', cursive;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#search{
+  padding-bottom: 10px;
+}
+body{
+  text-align: center;
+}
+.image{
+  background-color: #21252B;
+  padding: 5px;
+  border: 5px outset #D64716;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px #21252B;
+}
