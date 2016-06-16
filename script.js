@@ -18,8 +18,3 @@ $(document).ready( function() {
     }
   });
 });
-// $("#keyword").keyup(function(event){
-//   if(event.keyCode == 13){
-//       $("#press").click();
-//   }
-// });
