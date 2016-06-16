@@ -1,5 +1,6 @@
 $(document).ready( function() {
-  $("button").click(function(){
+  $("form").submit(function(evt){
+    evt.preventDefault();
     var keyword = $("input").val();
     var url = "https://www.omdbapi.com/?t=" + keyword
     $.ajax({
@@ -18,8 +19,3 @@ $(document).ready( function() {
     }
   });
 });
-// $("#keyword").keyup(function(event){
-//   if(event.keyCode == 13){
-//       $("#press").click();
-//   }
-// });
