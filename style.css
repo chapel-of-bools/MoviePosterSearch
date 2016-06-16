@@ -9,7 +9,13 @@ input, button{
   display: block;
   margin: auto;
 }
+::-webkit-input-placeholder{
+  text-align: center;
+  color: #21252B;
+}
 input{
+  background-color: #D64716;
+  color: black;
   border: 2px solid black;
   border-radius: 15px;
   margin-bottom: 5px;
